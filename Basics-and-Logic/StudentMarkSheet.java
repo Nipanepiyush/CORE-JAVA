@@ -35,5 +35,7 @@ class StudentMarkSheet {
         System.out.println("TOTAL MARKS IS: " + total);
         System.out.printf("TOTAL PERCENTAGE OBTAINED IS: %.2f%%", per);
 
+        sc.close();
+
     }
 }

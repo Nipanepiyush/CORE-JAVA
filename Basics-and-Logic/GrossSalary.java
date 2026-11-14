@@ -1,7 +1,7 @@
 /* Ramesh’s basic salary is input through the keyboard. His
 dearness allowance is 40% of basic salary, and house rent
 allowance is 20% of basic salary. Write a program to calculate
-his gross salary. 
+his gross salary.
 
 Gross Salary = Basic Salary + HRA + DA */
 
@@ -25,5 +25,6 @@ class GrossSalary {
         System.out.println("---------------------------------------");
         System.out.println("YOUR GROSS SALARY IS: " + gross);
 
+        sc.close();
     }
 }

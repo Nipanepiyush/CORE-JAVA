@@ -1,6 +1,6 @@
 /*The distance between two cities (in km.) is input through the
 keyboard. Write a program to convert and print this distance
-in meters, feet, inches and centimeters. 
+in meters, feet, inches and centimeters.
 
 formulas
 
@@ -30,5 +30,7 @@ public class DisatnceCalculator {
 
         double centimeter = inch * 2.54;
         System.out.println(inch + " INCH IN CENTIMETER IS " + centimeter + " CENTIMETER");
+
+        sc.close();
     }
 }
