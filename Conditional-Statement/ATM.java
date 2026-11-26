@@ -27,10 +27,11 @@ public class ATM {
                 int amt = sc.nextInt();
                 if (amt <= balance)
                     System.out.println(
-                            "TOTAL BALANCE IS: " + (balance - amt) "\nCONGRULATIONS AMOUNT WITHDRAWL SUCCESSFULLY! ");
+                            "TOTAL BALANCE IS: " + (balance - amt)
+                                    + "\nCONGRULATIONS AMOUNT WITHDRAWL SUCCESSFULLY! ");
 
                 else
-                    System.out.println("INSUFFICINENT BALANCE \n TOTAL BALANCE IS: " + balance);
+                    System.out.println("INSUFFICINENT BALANCE \n TOTAL BALANCE IS: " + (balance));
 
                 break;
             case 2:
@@ -53,8 +54,10 @@ public class ATM {
 
             case 4:
                 System.out.println("THANKYOU FOR VISITING!");
-
                 break;
+
+            default:
+                System.out.println("INVALID CHOICE TRY AGAIN!");
 
         }
     }
